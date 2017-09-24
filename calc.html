@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>Assignment (Calculator) </title></head>
+<body>
+<!--Text Box-->
+&nbsp;<input type = "text" style = "height: 60px; width: 320px; margin-left: 33%; font-size:40px;" name = "field" onkeypress = "checknum(event)">
+<br>
+<!--Number Keys-->
+<fieldset style = "width: 300px; margin-left: 33%;"><legend>Number Keys</legend>
+<div>
+&nbsp;<input type = "button" onclick = "selectnum(this)" style = "height:50px; width:50px;" value = "1"><input type = "button" onclick= "selectnum(this)" style = "height:50px; width:50px;" value = "2"><input type = "button" onclick="selectnum(this)" style = "height:50px; width:50px;" value = "3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "button" onclick = "op(this)" style = "height:50px; width:50px;" value = "+"><input type = "button" onclick = "op(this)" style = "height:50px; width:50px;" value = "-"><br>&nbsp;<input type = "button" onclick="selectnum(this)" style = "height:50px; width:50px;" value = "4"><input type = "button" onclick="selectnum(this)"  style = "height:50px; width:50px;" value = "5"><input type = "button" onclick="selectnum(this)"  style = "height:50px; width:50px;" value = "6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "button" onclick="op(this)" style = "height:50px; width:50px;" value = "*"><input type = "button" onclick="op(this)" style = "height:50px; width:50px;" value = "/"><br>&nbsp;<input type = "button" onclick="selectnum(this)"  style = "height:50px; width:50px;" value = "7"><input type = "button" onclick="selectnum(this)"  style = "height:50px; width:50px;" value = "8"><input type = "button" onclick="selectnum(this)" style = "height:50px; width:50px;" value = "9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "button" onclick="unary(this)" style = "height:50px; width:50px;" value = "%"><input type = "button" onclick="equal()" style = "height:50px; width:50px;" value = "="><br>&nbsp;<input type = "button" onclick = "selectnum(this)" style = "height:50px; width:150px" value = "0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "button" onclick = "unary(this)" style = "height:50px; width:50px;" value =  "1/x"><input type = "button" onclick = "unary(this)" style = "height: 50px; width: 50px;" value = "&radic;" id = "root"></div></fieldset>
+<h3 style = "position:absolute; margin-left:16%;">Keyboard Supported! Developed, Created, Updated and Maintained by Udbhav Gambhir (16103235)</h3>
+<script src = "calc.js"></script>
+</body>
+</html>
